@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    height: 9.6vh;
+    background-color: #fff;
+    position: fixed;
+    z-index: 99;
+}
+.nav-bar{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.ul li{
+    list-style-type: none;
+}
+.phone{
+    
+    width: 100%;
+    height: 90vh;
+    
+}
+.circle{
+    width: 80%;
+    height: 100%;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    
+    padding-top: 150px;
+}
+.text h1{
+    font-size: 55px; 
+}
+.text p{
+    color: rgb(157, 157, 157);
+}
+.video{
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    position: relative;
+    
+    
+}
+.mp4{
+    position: absolute;
+    top:16px;
+    left:70px;
+    right:990px;
+    bottom:0px;
+    
+    
+    
+}
+.orta{
+    width: 80%;
+    height: 100%;;
+    background-color: orangered;
+    background: url(../imgs/portrait_black.png) no-repeat;
+    background-size: 60%;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 50px;
+    right: 0px;
+    bottom: 0px;;
+}
+.br{
+    width: 65%;
+    height: 55vh;
+    background: linear-gradient(45deg,blue,rgb(208,0,255));
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+.news{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(45deg,blue,rgb(208, 0, 255));
+}
+.card{
+    width: 100%;
+    height: 91vh;
+    
+}
+.circle2{
+    width: 80%;
+    height: 100%;
+    background: yellow;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.telephone{
+    width: 40%;
+    height: 100%;
+    background: red;
+    
+}
+.card-img{
+    width:60%;
+    height:100%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-contect{
+    width: 50%;
+    height: 50%;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
