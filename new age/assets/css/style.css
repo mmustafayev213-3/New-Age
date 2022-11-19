@@ -8,7 +8,7 @@
     height: 9.6vh;
     background-color: #fff;
     position: fixed;
-    z-index: 99;
+    
 }
 .nav-bar{
     width: 80%;
@@ -31,6 +31,9 @@
     
     width: 100%;
     height: 90vh;
+    display: flex;
+    padding-top: 6%;
+    
     
 }
 .circle{
@@ -58,7 +61,7 @@
     height: 100%; 
     display: flex;
     position: relative;
-    
+    z-index: -1;
     
 }
 .mp4{
@@ -67,7 +70,7 @@
     left:70px;
     right:990px;
     bottom:0px;
-    
+    z-index: 1;
     
     
 }
@@ -78,7 +81,7 @@
     background: url(../imgs/portrait_black.png) no-repeat;
     background-size: 60%;
     position: absolute;
-    z-index: 1;
+    z-index: 999;
     top: 0px;
     left: 50px;
     right: 0px;
@@ -96,6 +99,8 @@
     width: 100%;
     height: 30vh;
     background: linear-gradient(45deg,blue,rgb(208, 0, 255));
+    margin-top: 2%;
+    
 }
 .card{
     width: 100%;
